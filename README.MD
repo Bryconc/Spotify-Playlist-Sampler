@@ -1,23 +1,12 @@
-## Spotify Playlist Sampler - Player GUI V2 (MVC) ##
+## Spotify Playlist Sampler ##
 
-The application has reached the final stage of development. I have redesigned the GUI with the help of the MVC. Now it should be more stable and expandable.
+**Background/Introduction**
 
-<img src="https://github.com/Bryconc/CS3535/blob/master/Research%20Module%206%20-%20Player%20GUI%20V2%20(MVC)/Model%20View%20Controller.gif?raw=true">
+With over 30 million songs in Spotify’s database and around 20,000 being added per day, it can certainly be overwhelming when seeking to discover music (Spotify Press Information, 2015). One of the biggest problems I’ve run into while creating a playlist on Spotify is diversifying my selection. When it comes to internet music streaming, Pandora certainly has an edge with its dynamic playlist generation. However, there’s a great resource available in Spotify that can’t be overlooked: other user’s playlists. Still, searching through these 400+ track playlists by hand is tiring and time consuming.
 
-**Process**
+**Goal**
 
-The GUI works off the principles of the MVC. Other features include:
-
-*	Exporting to an existing playlist
-      *	Must be a playlist you created
-*	Exporting to CSV file
-      *	Values to be exported decided by checkboxes (e.g. Track name, artists, etc.)
-*	Description page for all tracks in the playlist
-      *	Includes links to all songs on Spotify
-*	Default playlists for sampling.
-      *	Example playlists. Used a lot for testing but still handy and expandable
-*	Recent playlists for sampling
-      *	Program maintains a local database of 5 most recent playlist requests.
+To solve the aforementioned problem, I proposed the idea of a “playlist sampling” application. The idea of the program would be to scale the typical large Spotify playlist (100+ tracks each around 4-6 minutes on average) to a more manageable and time-efficient sampled version, containing samples of around 30 seconds in length. Rather than having to manually traverse the playlist, we could programmatically navigate the playlist to get the general idea of what’s contained in it. Simultaneously, the program would keep track of which songs the user “favorited” and allow them to export these songs to a new or existing playlist. With this “sampling” process, the user could efficently build a diverse playlist without strenuous work or creativity.
 
 
 **Dependencies**
@@ -41,3 +30,7 @@ In the future I would like to:
 
 
 <img src="https://github.com/Bryconc/CS3535/blob/master/Research%20Module%206%20-%20Player%20GUI%20V2%20(MVC)/Playlist%20Sampler%20Favorites.jpg?raw=true">
+
+**Video Demonstration of Program**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t05h6aVU6Og" frameborder="0" allowfullscreen></iframe>
