@@ -13,7 +13,8 @@ class Controller(object):
         :param model: Reference to the Model component of the MVC
         """
         self.model = model
-        self.view = player_view.View(self, model)
+        self.view = player_view.View(self)
+        self.model.register(self.view)
 
     def show(self):
         """
