@@ -33,4 +33,4 @@ In the future I would like to:
 
 **Video Demonstration of Program**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t05h6aVU6Og" frameborder="0" allowfullscreen></iframe>
+[![Demonstration Video for Program](http://img.youtube.com/vi/t05h6aVU6Og/0.jpg)](http://www.youtube.com/watch?v=t05h6aVU6Og)
